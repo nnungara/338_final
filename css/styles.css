@@ -2,5 +2,33 @@
 /* CSS Document */
 
 body{
-	background-image: url(../images/trm_stars.gif)
+	background-image: url(../images/trm_stars.gif);
+	
 }
+nav{
+	background-color: red;
+	width: 90%;
+	height: 50px;
+	text-align: center;
+}
+
+ul{
+	list-style-type: none;
+}
+
+li{
+	float: left;
+	line-height: 40px;
+	padding-left: 100px;
+}
+
+#logo{
+	float: center top;
+	
+}
+
+#bandphoto{
+	width:1000px;
+	float: center top;
+}
+

@@ -1,0 +1,23 @@
+commit 4ee3d36d89f34603605c0989338d29ec437c0788
+Author: Nathan Nungaray <nnungara@calpoly.edu>
+Date:   Tue May 16 14:59:03 2017 -0700
+
+    css styling
+
+commit 4c492abaaf10bd93b44b09a2f1151198371cf342
+Author: Nathan Nungaray <nnungara@calpoly.edu>
+Date:   Tue May 16 14:34:34 2017 -0700
+
+    added nav bar
+
+commit fbe30f3ba5405c0c98aa48470febd6f8e0acae49
+Author: Nathan Nungaray <nnungara@calpoly.edu>
+Date:   Tue May 16 14:07:43 2017 -0700
+
+    added photos
+
+commit a621129379516c82ddf60e1a5b7efd6090057d5e
+Author: Nathan Nungaray <nnungara@calpoly.edu>
+Date:   Tue May 16 13:05:57 2017 -0700
+
+    add files

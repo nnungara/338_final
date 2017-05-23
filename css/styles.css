@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body{
-	background-image: url(../images/trm_stars.gif);
+	background-image: url(../images/trm_stars.jpg);
 	
 }
 nav{
@@ -32,3 +32,13 @@ li{
 	float: center top;
 }
 
+nav {
+	font-family: Abel;
+	font-size: 1.5em;
+	color: black;
+}
+
+i{
+	color: white;
+
+}

@@ -57,6 +57,7 @@ p{
 	color:white;
 }
 .media{
+	display: inline-block;
 	color: white;
 	size: 60em;
 }

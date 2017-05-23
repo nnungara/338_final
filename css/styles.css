@@ -11,29 +11,32 @@ body{
 	
 }
 
-#bandphoto{
-	width:1000px;
-	float: center top;
+#bandphoto img{
+	width:97%;
+	diplay: block;
+	margin: 0 auto;
+	padding: 15px;
 }
 
 nav{
-	background-color: red;
-	height: 50px;
+	background-color: #9D0104;
+	height: 42px;
 	text-align: center;
 	font-family: Abel;
 	font-size: 1.5em;
 	color: black;
-	width:auto;
+	width: 100%;
+	
 }
 
-ul{
+nav ul{
 	list-style-type: none;
 }
 
-li{
-	float: left;
+nav li{
+	display:inline-block;
 	line-height: 40px;
-	padding-left: 100px;
+	padding-left: 50px;
 }
 
 a:link {
@@ -47,12 +50,14 @@ a: visited {
 
 h1{
 	color:white;
+	font-family: Abel;
 }
 
 p{
 	color:white;
 }
-i{
+.media{
 	color: white;
+	size: 60em;
 }
 

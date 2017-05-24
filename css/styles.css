@@ -40,16 +40,28 @@ nav li{
 
 a:link {
 	text-decoration: none;
-	color: black;
+	color: white;
 }
 
 a: visited {
 	color: white;
 }
 
+p{
+	font-family: Tinos, serif;
+	font-size: 30px;
+	padding: 15px;
+	width: 550px;
+	text-align: center;
+	line-height: 45px;
+}
+
 h1{
 	color:white;
 	font-family: Abel;
+	font-size: 40px;
+	padding: 15px;
+	text-align: center;
 }
 
 p{
@@ -60,10 +72,13 @@ p{
 	color: white;
 	font-size: 3em;
 	text-decoration: none;
+	align-content: center;
+	
 }
 
 i{
 	padding: 15px;
 	text-decoration: none;
+	
 }
 

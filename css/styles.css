@@ -84,10 +84,20 @@ i{
 
 .lyrics{
 	padding-bottom: 20px;
-	float: left;
 	text-align: left;
-	column-count: 2;
-	column-rule-width: 250px;
+	align-content: top;
+	
+}
+
+.first{
+	width: 50%;
+	float: left;
+	
+}
+
+.second{
+	width: 50%;
+	float: right;
 	
 }
 

@@ -82,3 +82,16 @@ i{
 	
 }
 
+.lyrics{
+	padding-bottom: 20px;
+	float: left;
+	text-align: left;
+	column-count: 2;
+	column-rule-width: 250px;
+	
+}
+
+.clear{
+	clear: both;
+}
+

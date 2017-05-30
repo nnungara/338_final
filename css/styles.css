@@ -84,22 +84,14 @@ i{
 
 .lyrics{
 	padding-bottom: 20px;
-	text-align: left;
 }
 
-.first{
-	width: 50%;
-	float: left;
-	
-}
-
-.second{
-	width: 50%;
-	float: right;
-	
-}
 
 .clear{
 	clear: both;
 }
 
+.first{
+	width: 50%;
+	float: left;
+}

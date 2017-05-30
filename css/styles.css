@@ -16,6 +16,11 @@ body{
 	margin: 0 auto;
 	padding: 15px;
 }
+#intro{
+	padding: 15px;
+	width: 550px;
+	line-height: 45px;
+}
 
 nav{
 	background-color: #9D0104;
@@ -43,17 +48,15 @@ a:link {
 	color: white;
 }
 
-a: visited {
+a:visited {
 	color: white;
 }
 
 p{
 	font-family: Tinos, serif;
-	font-size: 30px;
-	padding: 15px;
-	width: 550px;
+	font-size: 20px;
+	color:white;
 	text-align: center;
-	line-height: 45px;
 }
 
 h1{
@@ -64,9 +67,6 @@ h1{
 	text-align: center;
 }
 
-p{
-	color:white;
-}
 .media{
 	display: inline-block;
 	color: white;

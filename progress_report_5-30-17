@@ -1,0 +1,132 @@
+Last login: Mon May 29 21:19:12 on ttys000
+pcp070073pcs:~ Nathan$ cd Desktop
+pcp070073pcs:Desktop Nathan$ 338_final
+-bash: 338_final: command not found
+pcp070073pcs:Desktop Nathan$ cd 338_final
+pcp070073pcs:338_final Nathan$ git add -A
+pcp070073pcs:338_final Nathan$ git commit -m "adding columns to lyrics"
+[master 3287259] adding columns to lyrics
+ 2 files changed, 28 insertions(+)
+pcp070073pcs:338_final Nathan$ git push
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 609 bytes | 0 bytes/s, done.
+Total 5 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/nnungara/338_final.git
+   9660116..3287259  master -> master
+pcp070073pcs:338_final Nathan$ git add -A
+pcp070073pcs:338_final Nathan$ git commit -m "added decrepit lyrics"
+[master a2c057a] added decrepit lyrics
+ 2 files changed, 76 insertions(+), 11 deletions(-)
+pcp070073pcs:338_final Nathan$ git push
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 1.18 KiB | 0 bytes/s, done.
+Total 5 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/nnungara/338_final.git
+   3287259..a2c057a  master -> master
+pcp070073pcs:338_final Nathan$ git add -A
+pcp070073pcs:338_final Nathan$ git commit -m "adjusted p to align left"
+[master b6571b7] adjusted p to align left
+ 1 file changed, 1 insertion(+), 3 deletions(-)
+pcp070073pcs:338_final Nathan$ git push
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 351 bytes | 0 bytes/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/nnungara/338_final.git
+   a2c057a..b6571b7  master -> master
+pcp070073pcs:338_final Nathan$ git add -A
+pcp070073pcs:338_final Nathan$ git commit -m "reorganized lyrics to flow correctly"
+[master c2f7ff0] reorganized lyrics to flow correctly
+ 2 files changed, 48 insertions(+), 59 deletions(-)
+pcp070073pcs:338_final Nathan$ git push
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 588 bytes | 0 bytes/s, done.
+Total 5 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/nnungara/338_final.git
+   b6571b7..c2f7ff0  master -> master
+pcp070073pcs:338_final Nathan$ git add -A
+pcp070073pcs:338_final Nathan$ git push -m "still adjusting layout of text"
+error: unknown switch `m'
+usage: git push [<options>] [<repository> [<refspec>...]]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --repo <repository>   repository
+    --all                 push all refs
+    --mirror              mirror all refs
+    -d, --delete          delete refs
+    --tags                push tags (can't be used with --all or --mirror)
+    -n, --dry-run         dry run
+    --porcelain           machine-readable output
+    -f, --force           force updates
+    --force-with-lease[=<refname>:<expect>]
+                          require old value of ref to be at this value
+    --recurse-submodules[=<check|on-demand|no>]
+                          control recursive pushing of submodules
+    --thin                use thin pack
+    --receive-pack <receive-pack>
+                          receive pack program
+    --exec <receive-pack>
+                          receive pack program
+    -u, --set-upstream    set upstream for git pull/status
+    --progress            force progress reporting
+    --prune               prune locally removed refs
+    --no-verify           bypass pre-push hook
+    --follow-tags         push missing but relevant tags
+    --signed[=<yes|no|if-asked>]
+                          GPG sign the push
+    --atomic              request atomic transaction on remote side
+    -o, --push-option <server-specific>
+                          option to transmit
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+
+pcp070073pcs:338_final Nathan$ git add -A
+pcp070073pcs:338_final Nathan$ git commit -m "still adjusting layout of text"
+[master 292a313] still adjusting layout of text
+ 2 files changed, 13 insertions(+), 10 deletions(-)
+pcp070073pcs:338_final Nathan$ git push
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 540 bytes | 0 bytes/s, done.
+Total 5 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+git logTo https://github.com/nnungara/338_final.git
+   c2f7ff0..292a313  master -> master
+pcp070073pcs:338_final Nathan$ git log
+commit 292a313489e4d0fcb22c49b897fafb974ac9f7c5
+Author: nnungara <nnungara@calpoly.edu>
+Date:   Tue May 30 15:03:42 2017 -0700
+
+    still adjusting layout of text
+
+commit c2f7ff0009b1faf8bfd88b1106ea8015481700c2
+Author: nnungara <nnungara@calpoly.edu>
+Date:   Tue May 30 14:47:23 2017 -0700
+
+    reorganized lyrics to flow correctly
+
+commit b6571b7f0e278611f8acf3217e929e54b4db74b3
+Author: nnungara <nnungara@calpoly.edu>
+Date:   Tue May 30 14:27:34 2017 -0700
+
+    adjusted p to align left
+
+commit a2c057a639a19f884641645ad98cf7febc8c967d
+Author: nnungara <nnungara@calpoly.edu>
+Date:   Tue May 30 14:04:48 2017 -0700
+
+    added decrepit lyrics
+:

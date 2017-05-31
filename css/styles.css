@@ -54,7 +54,7 @@ a:visited {
 
 p{
 	font-family: Tinos, serif;
-	font-size: 20px;
+	font-size: 1em;
 	color:white;
 	text-align: left;
 }
@@ -83,18 +83,21 @@ i{
 }
 
 .lyrics{
-	padding: 20px;
-	
+	padding-bottom: 40px;
+	padding-left: 11%;
+	float: left;
+	width: 35%;
+	height: 150px;
+
 }
 
 
 .clear{
 	clear: both;
-	width: 50%;
+
 }
 
-.first{
-	width: 50%;
-	float: left;
-	padding-left: 10px;
+.song{
+	width: 100%;
 }
+

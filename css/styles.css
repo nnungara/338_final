@@ -94,10 +94,11 @@ i{
 
 .clear{
 	clear: both;
-
+	
 }
 
 .song{
 	width: 100%;
+	background-color: #9D0104;
 }
 

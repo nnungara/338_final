@@ -137,3 +137,13 @@ iframe {
 	font-size: 2.5em;
 	
 }
+
+.gallery{
+	padding: 5%;
+}
+
+.gallery img{
+	border: 1px solid #FFFFFF;
+	width: 25%;
+	height: auto;
+}

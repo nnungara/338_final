@@ -18,8 +18,9 @@ body{
 }
 #intro{
 	padding: 15px;
-	width: 550px;
+	width: 600px;
 	line-height: 45px;
+	margin: auto;
 }
 
 nav{
@@ -65,8 +66,6 @@ h2{
 	font-size: 1.2em;
 	color:white;
 	text-align: center;
-	float: center;
-	
 }
 
 p{
@@ -74,6 +73,7 @@ p{
 	font-size: 1em;
 	color:white;
 	text-align: left;
+
 }
 
 i{
@@ -87,12 +87,12 @@ iframe {
 	padding: 1% 5%;
 }
 
-.media{
+.media {
 	display: inline-block;
 	color: white;
 	font-size: 3em;
 	text-decoration: none;
-	align-content: center;
+	margin: auto;
 	
 }
 
@@ -113,7 +113,27 @@ iframe {
 }
 
 .song{
+	clear: both;
 	width: 100%;
 	background-color: #9D0104;
+	overflow: hidden;
 }
 
+.mmm{
+	line-height: 2em;
+	font-size: 1.3em;
+	clear: both;
+	padding: 1.5em;
+}
+
+.photo{
+	float: left;
+	padding: 0em 2em 2em 2em;
+}
+
+.name{
+	color:white;
+	font-family: Abel;
+	font-size: 2.5em;
+	
+}

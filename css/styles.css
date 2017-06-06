@@ -85,7 +85,7 @@ i{
 }
 
 iframe {
-	padding: 1% 5%;
+	padding: 1% ;
 }
 
 .media {
@@ -139,13 +139,20 @@ iframe {
 	
 }
 
+.videos{
+	width: 40%;
+	float: left;
+	padding: 2% 10% 2% 2%;
+}
+
 .gallery{
-	padding: 1%;
+	margin-right: 6%;
 }
 
 .gallery img{
 	border: 1px solid #FFFFFF;
-	width: 18%;
+	width: 22%;
 	height: auto;
+	float: left;
 	
 }
